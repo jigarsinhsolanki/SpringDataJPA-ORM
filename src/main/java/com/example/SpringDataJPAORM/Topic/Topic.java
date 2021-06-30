@@ -15,7 +15,6 @@ import javax.persistence.Id;
 public class Topic {
 
     @Id
-    @GeneratedValue
     private int id;
     private String name;
     private String description;
